@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    
+    font-family: "Ubuntu", sans-serif;
+    background-image: linear-gradient(to right, #f9740054, #c40c0c56), url("images/bg.jpg") ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+
+}
+
+
+section{
+    background-image: linear-gradient(to bottom, #5bbbff71,#1679ab88), url(images/2.jpg); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;   
+    width: 700px;
+    padding: 20px 10px;
+    margin: auto;
+    border-radius: 10px;
+    margin-top: 10%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+p{
+    font-size: 20px;
+    color: #141E46;
+    font-weight: 600;
+
+    }
+    span{
+        font-size: 23px;
+        font-style: italic;
+    }
+
+h1{
+    font-size: 50px;
+    font-weight: 800;
+    text-align: center;
+    color: #00215E;
+}
+
+input{
+    width: 70%;
+    display: block;
+    outline: none;
+    border:none;
+    border-radius: .3rem;
+    font-size: 20px;
+    margin: auto;
+    padding:  10px 15px;
+    margin-top: 10px;
+}
+
+button{
+    display: block;
+    width: 50%;
+    padding:  10px;
+    font-size: 20px;
+    border: none;
+    border-radius: .4rem;
+    margin: auto;
+    margin-top: 10px;
+    color: #C40C0C;
+    font-weight: 600;
+    cursor: pointer;
+    transition: color .4s ease;
+}
+
+button:hover{
+color: #1A4D2E;
+}
+
+#show{
+padding: 10px;
+font-size: 20px;
+text-align: center;
+}
+
+@media screen and (max-width:470px){
+
+    body{
+        height: 100dvh;
+    }
+    section{
+        display: flex;
+        flex-wrap: wrap;
+        position: relative;
+        top: 10%;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        margin:  20px 10px;
+    }
+
+    input{
+        width: 100%;
+        border: none;
+    }
+
+    h1{
+        font-size: 30px;
+        font-weight: 600;
+    }
+    
+}
