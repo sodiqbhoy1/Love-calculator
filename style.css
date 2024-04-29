@@ -14,16 +14,17 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
+    padding: 20px;
 
 }
 
 
 section{
-    background-image: linear-gradient(to bottom, #5bbbff71,#1679ab88), url(images/2.jpg); 
+    background-image: linear-gradient(to bottom, #1679abb4, #c40c0c85), url(images/2.jpg); 
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;   
-    width: 700px;
+    width: 550px;
     padding: 20px 10px;
     margin: auto;
     border-radius: 10px;
